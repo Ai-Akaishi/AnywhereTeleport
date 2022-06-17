@@ -19,7 +19,7 @@ Anywhere Function(<https://github.com/Ai-Akaishi/AnywhereFunction>)
 Specify the location and call the function.  
 
 ```nim
-次の記述は execute in minecraft:the_nether positioned 1 2 3 rotated 10 20 run tp @s ~ ~ ~ ~ ~
+次の記述は execute in minecraft:the_nether positioned 1 2 3 rotated 10 20 run tp @s ~ ~ ~ ~ ~ と同じ
   
 data modify storage anywhere: at set value {Pos:[1d,2d,3d],Rotation:[10f,20f],Dimension:"minecraft:the_nether"}  
 function #anywhere:tp
